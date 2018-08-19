@@ -334,6 +334,6 @@ Now enter [localhost:1313](http://localhost:1313) in the address bar of your bro
 - [Video.js](http://videojs.com/)
 - [MathJax](https://www.mathjax.org/)
 - [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [BootCDN](http://www.bootcdn.cn/)
+- [Staticfile CDN](https://staticfile.org/)
 
 Also thanks to [Steve Francia](https://github.com/spf13) for creating [Hugo](https://gohugo.io/) and the awesome community around the project.
