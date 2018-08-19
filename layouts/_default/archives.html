@@ -1,7 +1,3 @@
-{{ define "title" -}}
-  {{ .Title }} | {{ .Site.Params.seotitle | default .Site.Title }}
-{{- end }}
-
 {{ define "main" }}
   {{ partial "header.html" . }}
   <section class="main post-list">

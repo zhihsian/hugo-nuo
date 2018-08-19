@@ -1,7 +1,3 @@
-{{ define "title" }}
-  {{ .Title }} | {{ if isset .Site.Params "seotitle" }}{{ .Site.Params.seotitle }}{{ else }}{{ .Site.Title }}{{ end }}
-{{ end }}
-
 {{ define "main" }}
   {{ partial "header.html" . }}
   <section class="main post-detail">

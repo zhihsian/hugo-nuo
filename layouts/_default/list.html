@@ -1,10 +1,3 @@
-{{ define "title" }}
-  {{ if eq .Data.Singular "tag" }}Tag → {{ .Data.Term }}
-  {{ else if eq .Data.Singular "category" }}Category → {{ .Data.Term }}
-  {{ else }}Posts{{ end }}
-  {{ if isset .Site.Params "seotitle" }} | {{ .Site.Params.seotitle }}{{ else }} | {{ .Site.Title }}{{ end }}
-{{ end }}
-
 {{ define "main" }}
   {{ partial "header.html" . }}
   <section class="main post-list">
