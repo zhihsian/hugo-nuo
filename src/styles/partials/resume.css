@@ -1,6 +1,4 @@
 .resume {
-  font-family: var(--family-sans-serif) !important;
-
   & h2 {
     text-align: center;
   }

@@ -1,3 +1,17 @@
+/* Icon fonts */
+@font-face {
+  font-family: 'iconfont';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/iconfont.eot');
+  src:
+    url('../fonts/iconfont.woff2') format('woff2'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg'),
+    url('../fonts/iconfont.eot#iefix') format('embedded-opentype');
+}
+
 .icon {
   font-family: 'iconfont' !important;
   speak: none;
@@ -14,156 +28,163 @@
 
 .icon-douban {
   &::before {
-    content: var(--icon-douban);
-  }
-}
-
-.icon-bilibili {
-  &::before {
-    content: var(--icon-bilibili);
+    content: "\E6EC";
   }
 }
 
 .icon-zhihu {
   &::before {
-    content: var(--icon-zhihu);
+    content: "\E6ED";
+  }
+}
+
+.icon-bilibili {
+  &::before {
+    content: "\E6EE";
   }
 }
 
 .icon-close {
   &::before {
-    content: var(--icon-close);
+    content: "\F00D";
   }
 }
 
 .icon-facebook {
   &::before {
-    content: var(--icon-facebook);
+    content: "\F082";
   }
 }
 
 .icon-twitter {
   &::before {
-    content: var(--icon-twitter);
+    content: "\F099";
   }
 }
 
 .icon-github {
   &::before {
-    content: var(--icon-github);
+    content: "\F09B";
   }
 }
 
 .icon-rss {
   &::before {
-    content: var(--icon-rss);
+    content: "\F09E";
   }
 }
 
 .icon-menu {
   &::before {
-    content: var(--icon-menu);
+    content: "\F0C9";
   }
 }
 
 .icon-pinterest {
   &::before {
-    content: var(--icon-pinterest);
+    content: "\F0D2";
   }
 }
 
 .icon-up {
   &::before {
-    content: var(--icon-up);
+    content: "\F0D8";
   }
 }
 
 .icon-email {
   &::before {
-    content: var(--icon-email);
+    content: "\F0E0";
   }
 }
 
 .icon-linkedin {
   &::before {
-    content: var(--icon-linkedin);
+    content: "\F0E1";
   }
 }
 
 .icon-youtube {
   &::before {
-    content: var(--icon-youtube);
+    content: "\F431";
   }
 }
 
 .icon-instagram {
   &::before {
-    content: var(--icon-instagram);
+    content: "\F16D";
   }
 }
 
 .icon-dribbble {
   &::before {
-    content: var(--icon-dribbble);
+    content: "\F17D";
   }
 }
 
 .icon-weibo {
   &::before {
-    content: var(--icon-weibo);
+    content: "\F18A";
   }
 }
 
 .icon-vimeo {
   &::before {
-    content: var(--icon-vimeo);
+    content: "\F27D";
   }
 }
 
 .icon-google {
   &::before {
-    content: var(--icon-google);
+    content: "\F1A0";
   }
 }
 
 .icon-behance {
   &::before {
-    content: var(--icon-behance);
+    content: "\F1B4";
   }
 }
 
 .icon-codepen {
   &::before {
-    content: var(--icon-codepen);
+    content: "\F1CB";
   }
 }
 
 .icon-jsfiddle {
   &::before {
-    content: var(--icon-jsfiddle);
+    content: "\F1CC";
   }
 }
 
 .icon-wechat {
   &::before {
-    content: var(--icon-wechat);
+    content: "\F1D7";
   }
 }
 
 .icon-medium {
   &::before {
-    content: var(--icon-medium);
+    content: "\F23A";
   }
 }
 
 .icon-comment {
   &::before {
-    content: var(--icon-comment);
+    content: "\F27A";
   }
 }
 
 .icon-quora {
   &::before {
-    content: var(--icon-quora);
+    content: "\F2C4";
   }
 }
+
+.icon-translate {
+  &::before {
+    content: "\F1AB";
+  }
+}
+

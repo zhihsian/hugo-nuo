@@ -1,6 +1,6 @@
 {
-  "bundle.css": "/static/styles/bundle.css?v=1adefdd0ea",
-  "bundle.js": "/static/scripts/bundle.js?v=1adefdd0ea",
-  "fonts/main.css": "/static/fonts/lobster.svg?v=d2cd0d1f6d",
-  "images/main.css": "/static/images/grey-prism.svg?v=e20b09e3e5"
+  "bundle.css": "/static/styles/bundle.css?v=d63fb95ff9",
+  "bundle.js": "/static/scripts/bundle.js?v=d63fb95ff9",
+  "images/main.css": "/static/images/grey-prism.svg?v=e20b09e3e5",
+  "fonts/main.css": "/static/fonts/iconfont.svg?v=7a179030df"
 }

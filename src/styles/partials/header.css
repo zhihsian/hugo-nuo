@@ -24,7 +24,6 @@
 
 .title {
   font-size: var(--size-4);
-  font-family: var(--family-lobster);
   font-weight: var(--weight-bold);
   margin: 1rem auto;
 
