@@ -1,5 +1,3 @@
-import './styles/main.css';
-
 // Selected DOM elements
 const html = document.querySelector('html');
 const body = document.querySelector('body');

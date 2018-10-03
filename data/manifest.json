@@ -1,4 +1,6 @@
 {
-  "bundle.css": "/css/bundle.css?v=0808c4c112",
-  "bundle.js": "/js/bundle.js?v=0808c4c112"
+  "bundle.css": "/static/styles/bundle.css?v=1adefdd0ea",
+  "bundle.js": "/static/scripts/bundle.js?v=1adefdd0ea",
+  "fonts/main.css": "/static/fonts/lobster.svg?v=d2cd0d1f6d",
+  "images/main.css": "/static/images/grey-prism.svg?v=e20b09e3e5"
 }
