@@ -149,12 +149,10 @@ disqusShortname = "disqus_shortname"
 
 [params]
   # Changyan Comments (China Only)
-  changyan = false
-  changyanId = "your_changyan_id"
-  changyanConf = "your_changyan_conf"
+  Changyan = false
+  ChangyanId = "your_changyan_id"
+  ChangyanConf = "your_changyan_conf"
 ```
-
-If you want to use Disqus, you should disable `changyan` to `false`.
 
 ### The works page
 

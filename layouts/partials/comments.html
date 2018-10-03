@@ -1,0 +1,5 @@
+{{ if ne .Params.comments false }}
+  {{ if .Site.DisqusShortname }}{{ template "_internal/disqus.html" . }}{{ end }}
+  {{ if .Site.Params.Gitment }}{{ partial "gitment.html" . }}{{ end }}
+  {{ if .Site.Params.Changyan }}{{ partial "changyan.html" . }}{{ end }}
+{{ end }}

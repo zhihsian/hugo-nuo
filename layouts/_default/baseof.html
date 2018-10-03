@@ -24,13 +24,13 @@
     <div class="suspension">
       <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
       {{ if and (eq .Type "post") (eq .Kind "page") }}
-        {{ if .Site.Params.changyan }}
-        <a title="Go to comments" class="to-comment" href="#SOHUCS"><span class="icon icon-comment"></span></a>
-        {{ else if .Site.DisqusShortname }}
-        <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
+        {{ if .Site.DisqusShortname }}
+          <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
         {{ else if .Site.Params.Gitment }}
-        <a title="Go to comments" class="to-comment" href="#gitment-container"><span class="icon icon-comment"></span></a>
-        {{ else }}{{ end }}
+          <a title="Go to comments" class="to-comment" href="#gitment-container"><span class="icon icon-comment"></span></a>
+        {{ else if .Site.Params.Changyan }}
+          <a title="Go to comments" class="to-comment" href="#SOHUCS"><span class="icon icon-comment"></span></a>
+        {{ end }}
       {{ end }}
     </div>
     {{ end }}

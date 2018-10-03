@@ -67,9 +67,9 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # bilibili = "bilibili_id_number"
 
   # Changyan Comments (China Only)
-  changyan = false
-  changyanId = "cyt3toRiB"
-  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
+  Changyan = false
+  ChangyanId = "cyt3toRiB"
+  ChangyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
   # Google Webmaster
   # https://www.google.com/webmasters/
