@@ -60,6 +60,11 @@
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
+{{ if .IsTranslated -}}
+  {{ range .Translations -}}
+  <link rel="alternate" hreflang="{{ .Language.GetLocal `languageCode` | default .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  {{- end }}
+{{ end -}}
 
 <!-- Rending Prefs -->
 <meta name="renderer" content="webkit" />
