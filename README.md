@@ -206,14 +206,12 @@ weight: 40
 The links page read data from `data/link.yml` file, now you can add friend's links there. The format looks like:
 
 ```yaml
-01_link:
-  title: chekun's blog
+- title: chekun's blog
   link: https://chekun.me
   avatar: /media/links/chekun.jpg
   description: A full-stack PHP developer
 
-02_link:
-  title: Boof Wang
+- title: Boof Wang
   link: http://boof.wang
   avatar: /media/links/wangbo.jpg
   description: Another full-stack PHP developer
