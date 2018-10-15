@@ -10,7 +10,7 @@
       {{ if isset .Params "tags" }}
       <ul class="post-tags">
         {{ range .Params.tags }}
-          <li><a href="{{ ($.Site.GetPage `taxonomyTerm` (printf `tags/%s` .)).Permalink }}"><span class="tag">{{ . | title }}</span></a></li>
+          <li><a href="{{ ($.Site.GetPage `taxonomyTerm` (printf `tags/%s` .)).Permalink }}"><span class="tag">{{ . }}</span></a></li>
         {{ end }}
       </ul>
       {{ end }}

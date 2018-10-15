@@ -21,8 +21,8 @@
   --light: var(--white-ter);
   --dark: var(--grey-darker);
   --background: var(--white-ter);
-  --code-background: rgb(246, 248, 250);
   --main-background: var(--white);
+  --code-background: rgb(248, 248, 248);
 
   /* Text colors */
   --text: var(--grey-dark);

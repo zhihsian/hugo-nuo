@@ -4,7 +4,7 @@
 {{ if eq .Type "post" }}
 
   <!-- Page Author & Description -->
-  <meta name="author" content="{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}" />
+  <meta name="author" content="{{ .Params.author | default .Site.Params.author }}" />
   <meta name="description" content="{{ .Summary | plainify }}" />
 
   <!-- Twitter Card -->

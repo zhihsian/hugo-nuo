@@ -1,0 +1,92 @@
+pre {
+  background-color: var(--code-background);
+
+  & .token {}
+
+  & .text {}
+  & .whitespace, & .w { color: #bbbbbb }
+  & .escape, & .esc {}
+  & .error, & .err { color: #a61717; background-color: #e3d2d2 }
+  & .other, & .x {}
+
+  & .keyword, & .k { color: #000000; font-weight: bold }
+  & .keyword.constant, & .kc { color: #000000; font-weight: bold }
+  & .keyword.declaration, & .kd { color: #000000; font-weight: bold }
+  & .keyword.namespace, & .kn { color: #000000; font-weight: bold }
+  & .keyword.pseudo, & .kp { color: #000000; font-weight: bold }
+  & .keyword.reserved, & .kr { color: #000000; font-weight: bold }
+  & .keyword.type, & .kt { color: #445588; font-weight: bold }
+
+  & .name, & .n {}
+  & .name.attribute, & .na { color: #008080 }
+  & .name.builtin, & .nb { color: #0086B3 }
+  & .name.builtin.pseudo, & .bp { color: #999999 }
+  & .name.class, & .nc { color: #445588; font-weight: bold }
+  & .name.constant, & .no { color: #008080 }
+  & .name.decorator, & .nd { color: #3c5d5d; font-weight: bold }
+  & .name.entity, & .ni { color: #800080 }
+  & .name.exception, & .ne { color: #990000; font-weight: bold }
+  & .name.function, & .nf { color: #990000; font-weight: bold }
+  & .name.function.magic, & .fm { color: #990000; font-weight: bold }
+  & .name.property, & .py {}
+  & .name.label, & .nl { color: #990000; font-weight: bold }
+  & .name.namespace, & .nn { color: #555555 }
+  & .name.other, & .nx {}
+  & .name.tag, & .nt { color: #000080 }
+  & .name.variable, & .nv { color: #008080 }
+  & .name.variable.class, & .vc { color: #008080 }
+  & .name.variable.global, & .vg { color: #008080 }
+  & .name.variable.instance, & .vi { color: #008080 }
+  & .name.variable.magic, & .vm { color: #008080 }
+
+  & .literal, & .l {}
+  & .literal.date, & .ld {}
+
+  & .string, & .s { color: #dd1144 }
+  & .string.affix, & .sa { color: #dd1144 }
+  & .string.backtick, & .sb { color: #dd1144 }
+  & .string.char, & .sc { color: #dd1144 }
+  & .string.delimiter, & .dl { color: #dd1144 }
+  & .string.doc, & .sd { color: #dd1144 }
+  & .string.double, & .s2 { color: #dd1144 }
+  & .string.escape, & .se { color: #dd1144 }
+  & .string.heredoc, & .sh { color: #dd1144 }
+  & .string.interpol, & .si { color: #dd1144 }
+  & .string.other, & .sx { color: #dd1144 }
+  & .string.regex, & .sr { color: #009926 }
+  & .string.single, & .s1 { color: #dd1144 }
+  & .string.symbol, & .ss { color: #990073 }
+
+  & .number, & .m { color: #009999 }
+  & .number.bin, & .mb { color: #009999 }
+  & .number.float, & .mf { color: #009999 }
+  & .number.hex, & .mh { color: #009999 }
+  & .number.integer, & .mi { color: #009999 }
+  & .number.integer.long, & .il { color: #009999 }
+  & .number.oct, & .mo { color: #009999 }
+
+  & .operator, & .o { color: #000000; font-weight: bold }
+  & .operator.word, & .ow { color: #000000; font-weight: bold }
+
+  & .punctuation, & .p {}
+
+  & .comment, & .c { color: #999988; font-style: italic }
+  & .comment.hashbang, & .ch { color: #999988; font-style: italic }
+  & .comment.multiline, & .cm { color: #999988; font-style: italic }
+  & .comment.preproc, & .cp { color: #999999; font-weight: bold; font-style: italic }
+  & .comment.preprocfile, & .cpf { color: #999988; font-style: italic }
+  & .comment.single, & .c1 { color: #999988; font-style: italic }
+  & .comment.special, & .cs { color: #999999; font-weight: bold; font-style: italic }
+
+  & .generic, & .g {}
+  & .generic.deleted, & .gd { color: #000000; background-color: #ffdddd }
+  & .generic.emph, & .ge { color: #000000; font-style: italic }
+  & .generic.error, & .gr { color: #aa0000 }
+  & .generic.heading, & .gh { color: #999999 }
+  & .generic.inserted, & .gi { color: #000000; background-color: #ddffdd }
+  & .generic.output, & .go { color: #888888 }
+  & .generic.prompt, & .gp { color: #555555 }
+  & .generic.strong, & .gs { font-weight: bold }
+  & .generic.subheading, & .gu { color: #aaaaaa }
+  & .generic.traceback, & .gt { color: #aa0000 }
+}
